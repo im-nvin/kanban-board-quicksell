@@ -1,0 +1,27 @@
+.App {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app_navbar {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.app_outer {
+    flex: 1;
+    overflow-x: auto;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.app_board {
+    padding: 20px;
+    padding-bottom: 10px;
+    height: 100%;
+    display: flex;
+    min-width: fit-content;
+    gap: 30px;
+}
